@@ -1,5 +1,8 @@
-const removeFromArray = function(inputArray, arg) {
-    let prunedArray = inputArray.filter(item => item !== arg);
+const removeFromArray = function() {
+    let prunedArray = arguments[0];
+    for (let i = 1; i < arguments.length; i++) {
+        prunedArray = prunedArray.filter(word => word !== arguments[i]);
+    }
     return(prunedArray);
 };
 
