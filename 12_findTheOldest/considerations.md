@@ -1,0 +1,1 @@
+To find the oldest person, I need to calculate the age of each person. The details for each person are stored in an object in the provided array. The birthdate is at inputArray.yearOfBirth and the deathdate is at inputArray.yearOfDeath. I need to sort these and find the oldest person in the array.
